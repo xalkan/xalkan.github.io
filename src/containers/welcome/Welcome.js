@@ -4,7 +4,6 @@ import Fade from '@material-ui/core/Fade';
 
 import { Animated } from 'components';
 
-import { picture } from '../../images/xalkan.jpg';
 import content from './content';
 
 const { tagline, title, subtitle, summary } = content;
