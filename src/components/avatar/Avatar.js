@@ -1,8 +1,11 @@
 import React from 'react';
-import avatarIcon from 'images/website-icon.png';
 import { withStyles } from '@material-ui/styles';
+import Typography from '@material-ui/core/Typography';
 
 import styles from './style';
+import content from './content';
+
+const { title } = content;
 
 type Props = {
   classes: Object,
@@ -10,7 +13,9 @@ type Props = {
 
 const Avatar = ({ classes }: Props) => (
   <div className={classes.container}>
-    <img src={avatarIcon} className={classes.avatar} alt='avatar' />
+    <Typography variant='h5' color='textPrimary'>
+      {title}
+    </Typography>
   </div>
 );
 
