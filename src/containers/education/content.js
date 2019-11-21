@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const content = {
   title: 'Education.',
-  subtitle: 'Find out more on Github',
+  subtitle: 'Got that 4 yrs Bachelors in Software Engineering degree',
   links: [
     {
       to: 'https://github.com/xalkan',

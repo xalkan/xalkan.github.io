@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const content = {
   title: 'Experience.',
-  subtitle: 'Find out more on Github',
+  subtitle: 'Working as a full time software engineer for ~3 yrs',
   links: [
     {
       to: 'https://github.com/xalkan',
