@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"1zFT":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),c=t.n(a),u=t("Kvkj"),l=t("8cBu");n.default=function(){return c.a.createElement(u.d,null,c.a.createElement(u.g,{title:"Education"}),c.a.createElement(l.c,null))}}}]);
+//# sourceMappingURL=component---src-pages-education-js-05834f45fccd4c6c4c7b.js.map
