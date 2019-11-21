@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { Layout, SEO } from 'components';
-import { About } from 'containers';
+import { Education } from 'containers';
 
 const EducationPage = () => (
   <Layout>
     <SEO title='Education' />
-    <About />
+    <Education />
   </Layout>
 );
 

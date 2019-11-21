@@ -6,23 +6,24 @@ import { Animated, LinkList } from 'components';
 
 import content from './content';
 
-const { tagline, title, subtitle, links } = content;
+const { title, subtitle, links, summary } = content;
 
-const Welcome = () => (
+const Education = () => (
   <>
-    <Typography variant='h3' color='textPrimary'>
-      {tagline}
-    </Typography>
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary'>
-        {title}
+        <Animated>{title}</Animated>
       </Typography>
     </Fade>
     <Typography variant='h3' color='textPrimary'>
       {subtitle}
     </Typography>
+    <br />
+    <Typography variant='p' color='textPrimary'>
+      {summary}
+    </Typography>
     <LinkList links={links} />
   </>
 );
 
-export default Welcome;
+export default Education;
