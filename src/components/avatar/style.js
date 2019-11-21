@@ -1,13 +1,15 @@
-const styles = ({ typography }) => ({
+const styles = ({ palette, typography }) => ({
   container: {
-    
-
-    height: typography.pxToRem(36),
-    width: typography.pxToRem(100),
+    borderRadius: typography.pxToRem(4),
+    display: 'inline-block',
   },
   avatar: {
-    width: '100%'
-  },
+    border: 'none',
+    display: 'inline-block',
+    padding: `${typography.pxToRem(8)} ${typography.pxToRem(8)}`,
+    textDecoration: 'none',
+    color: palette.text.secondary,
+  }
 });
 
 export default styles;

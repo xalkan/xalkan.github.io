@@ -13,7 +13,7 @@ type Props = {
 
 const Avatar = ({ classes }: Props) => (
   <div className={classes.container}>
-    <Typography variant='h5' color='textPrimary'>
+    <Typography className={classes.avatar} variant='button' color='textPrimary'>
       {title}
     </Typography>
   </div>

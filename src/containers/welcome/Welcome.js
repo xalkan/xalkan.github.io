@@ -15,7 +15,7 @@ const Welcome = () => (
     </Typography>
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary'>
-        <Animated>{title}</Animated>
+        {title}
       </Typography>
     </Fade>
     <Typography variant='h3' color='textPrimary'>
