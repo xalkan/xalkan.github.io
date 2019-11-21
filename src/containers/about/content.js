@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const content = {
   title: 'About.',
@@ -6,14 +6,20 @@ const content = {
   links: [
     {
       to: 'https://github.com/xalkan',
-      text: 'xalkan',
+      text: 'Github',
       Icon: FaGithub,
       newTab: true,
     },
     {
       to: 'https://www.linkedin.com/in/shahidalyk/',
-      text: 'Shahid Ali Khan',
+      text: 'LinkedIn',
       Icon: FaLinkedin,
+      newTab: true,
+    },
+    {
+      to: 'mailto:shahidalyk@gmail.com',
+      text: 'Email',
+      Icon: FaEnvelope,
       newTab: true,
     },
   ],

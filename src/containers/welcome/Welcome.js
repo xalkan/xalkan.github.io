@@ -6,7 +6,7 @@ import { Animated } from 'components';
 
 import content from './content';
 
-const { tagline, title, subtitle, summary } = content;
+const { tagline, title, subtitle } = content;
 
 const Welcome = () => (
   <>
