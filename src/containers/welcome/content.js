@@ -1,7 +1,7 @@
 const content = {
-  tagline: 'Kick off your project using',
-  title: 'Gatsby Starter.',
-  subtitle: 'Featuring Redux, Material UI, Contentful & other stuff!',
+  tagline: 'Hello, Nice to meet ya, I am ',
+  title: 'Shahid Ali Khan',
+  subtitle: 'Software Engineer with ~3 yrs of experience and 4 years degree!',
 };
 
 export default content;

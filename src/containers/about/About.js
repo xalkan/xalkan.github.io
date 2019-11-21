@@ -6,7 +6,7 @@ import { Animated, LinkList } from 'components';
 
 import content from './content';
 
-const { title, subtitle, links } = content;
+const { title, subtitle, links, summary } = content;
 
 const About = () => (
   <>
@@ -17,6 +17,10 @@ const About = () => (
     </Fade>
     <Typography variant='h3' color='textPrimary'>
       {subtitle}
+    </Typography>
+    <br />
+    <Typography variant='p' color='textPrimary'>
+      {summary}
     </Typography>
     <LinkList links={links} />
   </>
