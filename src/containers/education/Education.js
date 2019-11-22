@@ -1,9 +1,8 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
-import { Grid } from '@material-ui/core';
 
-import { LinkList, Paragraph } from 'components';
+import { LinkList, Paragraph, TopImage } from 'components';
 
 import University from '../../images/university.jpg'
 import content from './content';
@@ -21,9 +20,7 @@ const Education = () => (
       {subtitle}
     </Typography>
 
-    <Grid container justify="center" style={{ padding: 32 }} >
-      <img src={University} alt='Comsats University Islamabad, PK' />
-    </Grid>
+    <TopImage src={University} alt='Comsats University Islamabad, PK' />
 
     <Paragraph paragraph={summary} />
 

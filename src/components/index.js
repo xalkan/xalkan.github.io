@@ -9,6 +9,7 @@ import Modal from './modal';
 import Navigation from './navigation';
 import SEO from './seo';
 import Paragraph from './paragraph'
+import TopImage from "./top-image";
 
 export {
   Animated,
@@ -22,4 +23,5 @@ export {
   Navigation,
   SEO,
   Paragraph,
+  TopImage,
 };
