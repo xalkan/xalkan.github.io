@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter`,
-    description: `Gatsby Starter`,
-    author: `Polychronis Papadakis`,
+    title: `xalkan`,
+    description: `xalkan`,
+    author: `xalkan`,
   },
   plugins: [
     `gatsby-plugin-flow`,
