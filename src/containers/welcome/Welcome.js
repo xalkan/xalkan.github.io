@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
 
-import { Animated, LinkList } from 'components';
+import { LinkList } from 'components';
 
 import content from './content';
 
