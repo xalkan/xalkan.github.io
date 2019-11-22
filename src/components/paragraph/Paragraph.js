@@ -12,7 +12,7 @@ type Props = {
 };
 
 const Paragraph = ({ classes, paragraph }: Props) => (
-  <Typography paragraph='true' variant='body1' color='textPrimary' dangerouslySetInnerHTML={{__html: paragraph}}>
+  <Typography className={classes.paragraph} paragraph='true' variant='body1' color='textPrimary' dangerouslySetInnerHTML={{__html: paragraph}}>
   </Typography>
 );
 

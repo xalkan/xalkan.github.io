@@ -28,7 +28,20 @@ const content = {
             During my time, I worked and played hard, made friends for life, worked with professors on various projects
             and had a memorable experience.
             <br/><br/>
-            here
+            Some of my top ranked courses were:
+            <ul>
+              <li>Algorithms and Data Structures</li>
+              <li>Object Oriented Programming</li>
+              <li>Database Systems</li>
+              <li>Software Design and Architecture</li>
+              <li>Distributed Computing</li>
+              <li>Scripting Languages</li>
+              <li>Entrepeneurship</li>
+              <li>French</li>
+              <li>Core Software Engineering courses (Project Management, Requirements Engg)</li>
+              <li>Maths courses (Calculus, Statistics and Probability, Linear Algebra)</li>
+              <li>Capstone Project</li>
+            </ul>
             
             `
 

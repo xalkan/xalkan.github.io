@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
 
-import { Animated, LinkList } from 'components';
+import { Animated, LinkList, Paragraph } from 'components';
 
 import content from './content';
 
@@ -19,9 +19,8 @@ const About = () => (
       {subtitle}
     </Typography>
     <br />
-    <Typography variant='p' color='textPrimary'>
-      {summary}
-    </Typography>
+    <Paragraph paragraph={summary} />
+      
     <LinkList links={links} />
   </>
 );
