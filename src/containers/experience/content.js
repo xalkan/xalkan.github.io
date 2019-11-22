@@ -23,7 +23,7 @@ const content = {
       newTab: true,
     },
   ],
-  summary: `After graduating, I worked here at <a href="https://www.lmkr.com/" target="_blank">Landmark Resources (LMKR)</a>
+  summary: `After graduating, I worked here at <a href="https://www.lmkr.com/company/" target="_blank">Landmark Resources (LMKR)</a>
             as a Software Engineer. My work is related to the core C++ side of LMKR's GeoGraphix suite of products.
             <ul>
               <li>Implementing new features in various GeoGraphix applications, platform and architecture.</li>
