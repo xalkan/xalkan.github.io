@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
 import { Grid } from '@material-ui/core';
 
-import { Animated, LinkList } from 'components';
+import { LinkList, Paragraph } from 'components';
 
 import University from '../../images/university.jpg'
 import content from './content';
@@ -14,21 +14,19 @@ const Education = () => (
   <>
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary'>
-        <Animated>{title}</Animated>
+        {title}
       </Typography>
     </Fade>
     <Typography variant='h3' color='textPrimary'>
       {subtitle}
     </Typography>
-    <br />
 
-    <Grid container justify = "center">
+    <Grid container justify="center" style={{ padding: 32 }} >
       <img src={University} alt='Comsats University Islamabad, PK' />
     </Grid>
 
-    <Typography variant='p' color='textPrimary'>
-      {summary}
-    </Typography>
+    <Paragraph paragraph={summary} />
+
     <LinkList links={links} />
   </>
 );

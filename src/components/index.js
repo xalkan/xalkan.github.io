@@ -8,6 +8,7 @@ import LinkList from './link-list';
 import Modal from './modal';
 import Navigation from './navigation';
 import SEO from './seo';
+import Paragraph from './paragraph'
 
 export {
   Animated,
@@ -20,4 +21,5 @@ export {
   Modal,
   Navigation,
   SEO,
+  Paragraph,
 };

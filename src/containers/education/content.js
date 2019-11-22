@@ -23,16 +23,14 @@ const content = {
       newTab: true,
     },
   ],
-  summary: 'I\'m an astute software engineer with lifelong learning interests. \
-            I\'m fairly strong-willed when it comes to solving complex engineering problems. \
-            My belief lies in quick result oriented learning and I am always eager to find patterns in what I do. \
-            I have a pleasant and easy going personality with the right mix of witty sense of humor. \
-            My specialties include quickly learning new skills and programming languages, showing extreme perseverance \
-            in problem solving, getting the job done within constraints and getting along with people while doing so. \
-            So far I\'ve worked in the C++, Python and Javascript ecosystem. I would consider myself battle hardened after \
-            working with complex systems and complex problems that would stay with me for days. So, I can safely say that \
-            I can "live with problems" without burning out until they get resolved. It resonates with my core belief in \
-            "You can\'t defeat a person who never gives up".'
+  summary: `After I learnt coding, I studied Software Engineering at <a href="https://www.comsats.edu.pk/" target="_blank">Comsats University.</a>
+            It's one of the top universities for engineering in Pakistan. 
+            During my time, I worked and played hard, made friends for life, worked with professors on various projects
+            and had a memorable experience.
+            <br/><br/>
+            here
+            
+            `
 
 };
 

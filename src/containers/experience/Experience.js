@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
 import { Grid } from '@material-ui/core';
 
-import { Animated, LinkList } from 'components';
+import { LinkList, Paragraph } from 'components';
 
 import Workplace from '../../images/workplace.jpg'
 import content from './content';
@@ -14,7 +14,7 @@ const Experience = () => (
   <>
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary'>
-        <Animated>{title}</Animated>
+        {title}
       </Typography>
     </Fade>
     <Typography variant='h3' color='textPrimary'>
@@ -26,9 +26,8 @@ const Experience = () => (
       <img src={Workplace} alt='Ufone Tower Islamabad, PK' />
     </Grid>
     
-    <Typography variant='p' color='textPrimary'>
-      {summary}
-    </Typography>
+    <Paragraph paragraph={summary} />
+
     <LinkList links={links} />
   </>
 );
