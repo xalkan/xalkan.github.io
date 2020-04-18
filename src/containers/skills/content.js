@@ -97,7 +97,51 @@ const content = {
 
   secondtitle: 'Certificates.',
   secondsubtitle: 'Online Courses Certificates',
-
+  certificates:
+  [
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_CloudArchitecture_AdvancedConcepts.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_CloudArchitecture_AdvancedConcepts_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Cloud Architecture Advanced Concepts"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Kubernetes_CloudNativeEcosystem.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Kubernetes_CloudNativeEcosystem_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Kubernetes Cloud Native Ecosystem"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Kubernetes_Microservices.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Kubernetes_Microservices_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Kubernetes Microservices"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Kubernetes_NativeTools.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Kubernetes_NativeTools_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Kubernetes Native Tools"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_LearningDocker.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_LearningDocker_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Learning Docker"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_LearningKubernetes.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_LearningKubernetes_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Learning Kubernetes"
+    }
+  ]
 };
 
 export default content;
