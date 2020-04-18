@@ -6,7 +6,8 @@ import { Animated, LinkList, Paragraph } from 'components';
 
 import content from './content';
 
-const { title, subtitle, links, summary } = content;
+const { title, subtitle, languagelinks, frameworkslinks, databaseslinks, toolslinks, summary } = content;
+const { secondtitle, secondsubtitle} = content;
 
 const Skills = () => (
   <>
@@ -20,8 +21,23 @@ const Skills = () => (
     </Typography>
     <br />
     <Paragraph paragraph={summary} />
-      
-    <LinkList links={links} />
+
+    <LinkList links={languagelinks} />
+    <LinkList links={frameworkslinks} />
+    <LinkList links={databaseslinks} />
+    <LinkList links={toolslinks} />
+
+    <br /><br /><br /><br />
+    <Fade in timeout={1000}>
+      <Typography variant='h1' color='textPrimary'>
+        <Animated>{secondtitle}</Animated>
+      </Typography>
+    </Fade>
+    <Typography variant='h3' color='textPrimary'>
+      {secondsubtitle}
+    </Typography>
+    <br />
+
   </>
 );
 
