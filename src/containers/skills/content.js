@@ -140,6 +140,20 @@ const content = {
       thumbnailWidth: 330,
       thumbnailHeight: 255,
       caption: "Learning Kubernetes"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_NodeEssentialTraining.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_NodeEssentialTraining_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "NodeJs Essential Training"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_KafkaEssentialTraining.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_KafkaEssentialTraining_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Kafka Essential Training"
     }
   ]
 };
