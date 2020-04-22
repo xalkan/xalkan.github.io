@@ -154,7 +154,42 @@ const content = {
       thumbnailWidth: 330,
       thumbnailHeight: 255,
       caption: "Kafka Essential Training"
-    }
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_MicroservicesFoundations.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_MicroservicesFoundations_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Microservices Foundations"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Microservices_AsynchronousMessaging.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Microservices_AsynchronousMessaging_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Microservices Asynchronous Messaging"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_PolyglotWebDevelopment.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_PolyglotWebDevelopment_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Polyglot Web Development"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Learning NoSQLDatabases.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Learning NoSQLDatabases_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Learning NoSQL Databases"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_ServerlessArchitecture.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_ServerlessArchitecture_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Serverless Architecture"
+    },
   ]
 };
 
