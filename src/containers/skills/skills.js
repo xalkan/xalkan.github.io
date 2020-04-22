@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
 
@@ -9,7 +8,7 @@ import Gallery from 'react-grid-gallery';
 
 import content from './content';
 
-const { title, subtitle, languagelinks, frameworkslinks, databaseslinks, toolslinks, summary } = content;
+const { title, subtitle, languagelinks, frameworkslinks, databaseslinks, toolslinks, interests, summary } = content;
 const { secondtitle, secondsubtitle, certificates} = content;
 
 const Skills = () => (
@@ -23,6 +22,7 @@ const Skills = () => (
       {subtitle}
     </Typography>
     <br />
+    <Paragraph title="interests" paragraph={interests} />
     <Paragraph paragraph={summary} />
 
     <LinkList links={languagelinks} />
@@ -30,7 +30,7 @@ const Skills = () => (
     <LinkList links={databaseslinks} />
     <LinkList links={toolslinks} />
 
-    <br /><br /><br /><br />
+    <br /><br /><br />
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary'>
         <Animated>{secondtitle}</Animated>
@@ -41,7 +41,7 @@ const Skills = () => (
     </Typography>
     <br />
 
-    <Gallery images={certificates} margin="4"/>
+    <Gallery images={certificates} margin="5"/>
     <br /><br /><br /><br />
   </>
 );
