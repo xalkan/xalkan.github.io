@@ -1,6 +1,7 @@
 import { FaPython, FaJs, FaCuttlefish } from 'react-icons/fa';
 import { FaReact, FaAngular, FaNodeJs, FaGit } from 'react-icons/fa';
 import { FaDatabase } from 'react-icons/fa';
+import { FaLink } from 'react-icons/fa';
 
 import { FaDocker, FaDharmachakra } from 'react-icons/fa';
 
@@ -93,9 +94,16 @@ const content = {
 
   interests: "microservices, serverless, cloud native, full stack, polyglot, architecture, solving complex problems, continuous learning",
 
-  summary: `
-            `
-  ,
+  summary: "here is a summary",
+
+  summarylink: [
+    {
+      to: 'https://github.com/xalkan/learning-modern-backend-tech',
+      text: 'Click here to view my skills details and how I learn',
+      Icon: FaLink,
+      newTab: true,
+    }
+  ],
 
   secondtitle: 'Certificates.',
   secondsubtitle: 'Online Courses Certificates',
@@ -204,6 +212,30 @@ const content = {
       thumbnailHeight: 255,
       caption: "Serverless Architecture",
       thumbnailCaption: "Serverless Architecture"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_LearningJenkins.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_LearningJenkins_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Learning Jenkins",
+      thumbnailCaption: "Learning Jenkins"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_ExpressEssentialTraining.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_ExpressEssentialTraining_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Node.js Essential Training: Web Servers, Tests, and Deployment",
+      thumbnailCaption: "Node.js Essential Training 2"
+    },
+    {
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_ExpressEssentialTraining.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_ExpressEssentialTraining_thumbnail.png",
+      thumbnailWidth: 330,
+      thumbnailHeight: 255,
+      caption: "Express Essential Training",
+      thumbnailCaption: "Express Essential Training"
     },
   ]
 };
