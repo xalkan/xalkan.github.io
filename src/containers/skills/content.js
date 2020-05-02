@@ -222,8 +222,8 @@ const content = {
       thumbnailCaption: "Learning Jenkins"
     },
     {
-      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_ExpressEssentialTraining.png",
-      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_ExpressEssentialTraining_thumbnail.png",
+      src: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Node.png",
+      thumbnail: "https://raw.githubusercontent.com/xalkan/certificates/master/meta/CertificateOfCompletion_Node_thumbnail.png",
       thumbnailWidth: 330,
       thumbnailHeight: 255,
       caption: "Node.js Essential Training: Web Servers, Tests, and Deployment",
