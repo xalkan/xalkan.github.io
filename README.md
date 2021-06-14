@@ -88,3 +88,11 @@ CONTENTFUL_ACCESS_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXX
 CONTENTFUL_ENV=XXXX
 ```
 For more info on how to setup Contentful follow this [link](https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/).
+
+## Notes
+Use this [helpful link](https://spin.atomicobject.com/2019/03/27/node-gyp-windows/) to install required windows build tools for node-gyp and sharp.
+
+For installing windows build tools for node-gyp.
+```sh
+npm install --global --production windows-build-tools --vs2015
+```
