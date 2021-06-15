@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{VfgA:function(e,n,t){"use strict";t.r(n);var l=t("q1tI"),a=t.n(l),c=t("Kvkj"),u=t("8cBu");n.default=function(){return a.a.createElement(c.d,null,a.a.createElement(c.h,{title:"Skills"}),a.a.createElement(u.e,null))}}}]);
+//# sourceMappingURL=component---src-pages-skills-js-1e443a6d159e168dbfc6.js.map
