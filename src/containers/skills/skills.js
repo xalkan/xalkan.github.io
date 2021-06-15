@@ -9,7 +9,7 @@ import Gallery from 'react-grid-gallery';
 import content from './content';
 
 const { title, subtitle, languagelinks, frameworkslinks, databaseslinks, toolslinks, interests, summary, summarylink } = content;
-const { secondtitle, secondsubtitle, certificates} = content;
+const { secondtitle, secondsubtitle, certificates } = content;
 
 const Skills = () => (
   <>
@@ -22,7 +22,7 @@ const Skills = () => (
       {subtitle}
     </Typography>
     <br />
-    <Paragraph title="interests" paragraph={interests} />
+    <Paragraph title='interests' paragraph={interests} />
 
     <LinkList links={languagelinks} />
     <LinkList links={frameworkslinks} />
@@ -30,7 +30,6 @@ const Skills = () => (
     <LinkList links={toolslinks} />
 
     <LinkList links={summarylink} />
-
 
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary'>
@@ -42,8 +41,27 @@ const Skills = () => (
     </Typography>
     <br />
 
-    <Gallery images={certificates} margin="5"/>
-    <br /><br /><br /><br />
+    {[
+      {
+        // subtitle: nodejsSubtitle,
+        certificates: certificates,
+      },
+    ].map(item => {
+      return (
+        <div>
+          {/* <Typography variant='h3' color='textPrimary'>
+            {item.subtitle}
+          </Typography> */}
+
+          <Gallery images={item.certificates} margin='5' />
+
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      );
+    })}
   </>
 );
 

@@ -1,5 +1,5 @@
 const content = {
-    title: 'xalkan'
+  title: '',
 };
-  
+
 export default content;

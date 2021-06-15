@@ -23,7 +23,9 @@ const content = {
       newTab: true,
     },
   ],
-  summary: `After I learnt coding, I studied Software Engineering at <a href="https://www.comsats.edu.pk/" target="_blank">Comsats University.</a>
+  university: `Comsats University`,
+  timeline: `Sep 2012 - Jun 2016`,
+  summary: `After I learnt coding, I studied Software Engineering at <a href="https://www.timeshighereducation.com/world-university-rankings/comsats-university-islamabad" target="_blank">Comsats University.</a>
             It's one of the top universities for engineering in Pakistan. 
             During my time, I worked and played hard, made friends for life, worked with professors on various projects
             and had a memorable experience.
@@ -43,8 +45,7 @@ const content = {
               <li>Capstone Project</li>
             </ul>
             
-            `
-
+            `,
 };
 
 export default content;
