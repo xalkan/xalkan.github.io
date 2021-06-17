@@ -8,7 +8,7 @@ import Gallery from 'react-grid-gallery';
 
 import content from './content';
 
-const { title, subtitle, languagelinks, frameworkslinks, databaseslinks, toolslinks, interests, summary, summarylink } = content;
+const { links, title, subtitle, languagelinks, frameworkslinks, databaseslinks, toolslinks, interests, summary, summarylink } = content;
 const { secondtitle, secondsubtitle, certificates } = content;
 
 const Skills = () => (
@@ -30,6 +30,8 @@ const Skills = () => (
     <LinkList links={toolslinks} />
 
     <LinkList links={summarylink} />
+
+    <LinkList links={links} />
 
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary'>

@@ -2,10 +2,37 @@ import { FaPython, FaJs, FaCuttlefish } from 'react-icons/fa';
 import { FaReact, FaAngular, FaNodeJs, FaGit } from 'react-icons/fa';
 import { FaDatabase, FaAmazon, FaRegCircle } from 'react-icons/fa';
 import { FaLink } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 
 import { FaDocker, FaDharmachakra } from 'react-icons/fa';
 
 const content = {
+  links: [
+    {
+      to: 'https://xalkan.github.io/resume/',
+      text: 'Resume',
+      Icon: FaFileAlt,
+      newTab: true,
+    },
+    {
+      to: 'https://github.com/xalkan',
+      text: 'Github',
+      Icon: FaGithub,
+      newTab: true,
+    },
+    {
+      to: 'https://www.linkedin.com/in/shahidalyk/',
+      text: 'LinkedIn',
+      Icon: FaLinkedin,
+      newTab: true,
+    },
+    {
+      to: 'mailto:shahidalyk@gmail.com',
+      text: 'Email',
+      Icon: FaEnvelope,
+      newTab: true,
+    },
+  ],
   title: 'Skills.',
   subtitle: 'The more I learn, the more I realize, the less I know',
   languagelinks: [

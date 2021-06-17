@@ -1,10 +1,16 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 
 const content = {
   tagline: 'Hello, Nice to meet ya, I am ',
   title: 'Shahid Ali Khan',
   subtitle: 'Full Stack Software Engineer with 4 yrs of experience and a software engineering degree!',
   links: [
+    {
+      to: 'https://xalkan.github.io/resume/',
+      text: 'Resume',
+      Icon: FaFileAlt,
+      newTab: true,
+    },
     {
       to: 'https://github.com/xalkan',
       text: 'Github',

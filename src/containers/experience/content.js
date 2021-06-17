@@ -1,9 +1,15 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 
 const content = {
   title: 'Experience.',
   subtitle: 'Working as a full time software engineer for 4 years',
   links: [
+    {
+      to: 'https://xalkan.github.io/resume/',
+      text: 'Resume',
+      Icon: FaFileAlt,
+      newTab: true,
+    },
     {
       to: 'https://github.com/xalkan',
       text: 'Github',
